@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Bike Tour
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div id="mapa"></div>
+  <button fab fab-top fab-left dark (click)="getPosicaoAtual()"><ion-icon name="locate"></ion-icon></button>
+  <button fab fab-bottom fab-right warning (click)="abrirAlertas()"><ion-icon name="alert" id="alert"></ion-icon></button>
+  <button fab fab-bottom fab-left primary (click)="abrirPesquisa()"><ion-icon name="search" id="alert"></ion-icon></button>
+</ion-content>
